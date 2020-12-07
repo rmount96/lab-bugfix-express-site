@@ -10,8 +10,11 @@ This express app has 3 pages, viewable in the browser:
 # Bugs
 
 - [X] All pages show "Page not found"
+  - moved 'catch all' to the bottom
 - [X] `/hello` route causes an error
+  - Fixed typo: req.send needed to send a response instead
 - [X] `/hello/world` shows text "Hello, {whom}!" instead of "Hello, world!"
+  - Added missing '$' for interpolation
 
 # For the more curious
 
