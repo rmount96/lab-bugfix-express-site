@@ -9,9 +9,9 @@ This express app has 3 pages, viewable in the browser:
 
 # Bugs
 
-- [ ] All pages show "Page not found"
-- [ ] `/hello` route causes an error
-- [ ] `/hello/world` shows text "Hello, {whom}!" instead of "Hello, world!"
+- [X] All pages show "Page not found"
+- [X] `/hello` route causes an error
+- [X] `/hello/world` shows text "Hello, {whom}!" instead of "Hello, world!"
 
 # For the more curious
 
